@@ -1,0 +1,235 @@
+.contact-section {
+    background-image: 
+        linear-gradient(rgba(92, 92, 92, 0.2), rgba(92, 92, 92, 0.2)),
+        url(images/contact.jpeg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding: 1em;
+    height: auto;
+}
+
+.title-contact {
+    font-family: 'Bagel Fat One', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    padding: 0.5em;
+    color: #f8f8f8;
+    margin-top: 2rem;
+}
+
+form {
+    color: #f8f8f8;
+    font-family: 'Afacad Flux', sans-serif;
+    font-size: 1.125rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: right;
+    margin-top: 1.5em;
+    height: 75vh;
+}
+
+label {
+    width: 300px;
+    text-align: left;
+    font-size: 1.125rem;
+    display: block;
+    margin-bottom: -20px;
+    margin-top: 20px;
+}
+
+.text1, .text2 {
+    width: 300px;
+    padding: 10px;
+    margin: 1px 0;
+    font-size: 1.125rem;
+    font-family: 'Afacad Flux', sans-serif;  
+}
+
+.text1 {
+    height: 40px;
+}
+
+.text2 {
+    resize: vertical;
+    height: 200px;
+    overflow-y: auto;              
+    vertical-align: top;
+    line-height: 1.5;
+    box-sizing: border-box;
+    white-space: pre-wrap;
+}
+
+.button-container {
+    text-align: right;
+}
+
+.button-send {
+    color: #f8f8f8;
+    background-color: #D63D3D;
+    font-family: 'Afacad Flux';
+    font-size: 1.125rem;
+    border: none;
+    border-radius: 2em;
+    box-shadow: 0 8px 10px 0 rgba(0,0,0,0.2), 0 6px 10px 0 rgba(0,0,0,0.19);
+    width: 120px;
+    height: 40px;
+    padding: 8px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    margin-top: 20%;
+}
+
+.button-send:hover {
+    background-color: #b43636;
+    cursor: pointer;
+}
+
+.contact-quote {
+    display: none;
+}
+
+
+
+@media only screen and (min-width: 1200px) {
+
+    .contact-section {
+        height: auto;
+    }
+
+    .text1 {
+        width: 300px;
+    }
+
+    .text2 {
+        width: 620px;
+    }
+
+    .form-title, .form-title-name, .form-title-mail {
+        display: block;
+        margin-bottom: -20px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        margin: auto;
+        margin-top: 4%;
+        height: auto;
+    }
+    
+    .input-row {
+        display: flex;
+        justify-content: center;
+        gap: 1em;
+    }
+    
+    .form-group {
+        flex: 1;
+    }
+    
+    label {
+        display: block;
+        margin-bottom: 0.5em;
+    }
+    
+    .text-input, .text-area {
+        padding: 0.5em;
+        box-sizing: border-box;
+    }
+
+    .contact-quote {
+        display: block;
+        font-family: 'Afacad Flux';
+        font-size: 1.375rem;
+        padding: 3em;
+        text-align: center;
+        color: #F8F8F8;
+        margin-bottom: 10em;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+
+    .contact-form {
+        height: auto;
+    }
+
+    .text1 {
+        width: 300px;
+    }
+
+    .text2 {
+        width: 620px;
+    }
+
+    .form-title, .form-title-name, .form-title-mail {
+        display: block;
+        margin-bottom: -20px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        margin: auto;
+        margin-top: 4%;
+        height: auto;
+    }
+    
+    .input-row {
+        display: flex;
+        justify-content: center;
+        gap: 1em;
+    }
+    
+    .form-group {
+        flex: 1;
+    }
+    
+    label {
+        display: block;
+        margin-bottom: 0.5em;
+    }
+    
+    .text-input, .text-area {
+        padding: 0.5em;
+        box-sizing: border-box;
+    }
+
+    .contact-quote {
+        display: block;
+        font-family: 'Afacad Flux';
+        font-size: 1.125rem;
+        padding: 3em;
+        text-align: center;
+        color: #F8F8F8;
+        margin-bottom: 10em;
+    }
+
+}
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+
+    .contact-form {
+        height: auto;
+    }
+
+    form {
+        height: auto;
+    }
+
+    .contact-quote {
+        display: block;
+        font-family: 'Afacad Flux';
+        font-size: 1.125rem;
+        padding: 3em;
+        text-align: center;
+        color: #F8F8F8;
+        margin-bottom: 6em;
+    }
+}
